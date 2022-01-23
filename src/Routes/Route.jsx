@@ -8,7 +8,7 @@ import { useState } from 'react';
 //=========== CONTAINERS =========
 import Sidebar from '../containers/Sidebar/Sidebar';
 import Discount from '../containers/Discount/Discount';
-import Header from '../containers/Header/Header';
+import Header from '../containers/Header/HeaderTop';
 
 //======== SIDEBAR PAGES =========
 import Woman from '../pages/SidebarPages/woman';

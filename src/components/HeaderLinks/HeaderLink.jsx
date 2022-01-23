@@ -3,8 +3,8 @@ import './main.scss';
 const HeaderLink = ({title})=> {
 
   return(
-    <button>
-      <span>{title}</span>
+    <button className='header__btn'>
+      <span className='header__title'>{title}</span>
     </button>
   )
 }

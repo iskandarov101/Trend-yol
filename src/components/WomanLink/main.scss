@@ -1,0 +1,32 @@
+.woman__btn{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  background-color: transparent;
+  width: 68px;
+  height: 68px;
+  
+}
+
+.woman__image {
+  border: 1px solid #e6e6e6;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: block;
+  width: 68px;
+  height: 68px;
+  margin: 0;
+  transition: all ease 0.2s;
+}
+
+.woman__title{
+  font-family: 'source_sans_prosemibold', sans-serif;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #333;
+  font-size: 14px;
+  transition: all ease 0.2s;
+  line-height: 14px;
+  height: 42px;
+}

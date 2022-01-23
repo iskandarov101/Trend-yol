@@ -1,0 +1,102 @@
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.site-logo {
+  width: 111px;
+  height: 100%;
+  margin-bottom: 8px;
+}
+
+.header__input {
+  position: relative;
+  max-width: 598px;
+  width: 100%;
+}
+.header__inner--input {
+  width: 100%;
+  width: 100%;
+  font-size: 14px;
+  color: #333;
+  background-color: #f3f3f3;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  padding: 10px 40px 10px 15px;
+  box-sizing: border-box;
+  outline: none;
+  transition: all ease 0.3s;
+  margin: 0;
+  line-height: unset;
+  &:focus {
+    border-color: #f27a1a;
+    background-color: #fff;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  }
+  &::placeholder {
+    font-family: "source_sans_proregular"!important;
+    font-size: 12px;
+    background-color: transparent;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    color: #797979;
+    opacity: 1;
+  }
+}
+
+.header__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 300px;
+  width: 100%;
+}
+
+.header__inner--enter{
+  content: '';
+  display: inline-block;
+  width: 15.52px;
+  height: 18px;
+  background-image: url('../../assets/images/user.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  margin-right: 5px;
+}
+
+.header__items {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.header__inner--fav {
+  content: '';
+  display: inline-block;
+  width: 15.52px;
+  height: 15px;
+  background-image: url('../../assets/images/heart.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  margin-right: 5px;
+}
+
+.header__inner--card {
+  content: '';
+  display: inline-block;
+  width: 18.52px;
+  height: 18px;
+  background-image: url('../../assets/images/card.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  margin-right: 5px;
+}
+
+
+

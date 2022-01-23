@@ -4,8 +4,8 @@ import './main.scss';
 const SidebarBtn = ({title, active})=> {
 
   return(
-    <button className={`sidebar-btn ${active ? 'active' : ''}`}>
-      <span>{title}</span>
+    <button className={`sidebar__btn ${active ? 'active' : ''}`}>
+      <span className='sidebar__title'>{title}</span>
     </button>
   )
 }
