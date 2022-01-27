@@ -18,19 +18,19 @@ const HeaderTop = ({activePage, setActivePage})=> {
           <input className='header__inner--input' type="search"  placeholder='Aradığınız ürün, kategori veya markayı yazınız'/>
         </div>
         <div className='header__links'>
-          <Link className='header__items' to='/enter' onClick={()=> setActivePage('enter')}>
+          <Link className='header__items' to='/enter' onClick={()=> setActivePage('/enter')}>
             <div className='header__inner--enter'></div>
-            <HeaderLink  title='Giriş Yap' activePage={activePage === 'enter'} />
+            <HeaderLink  title='Giriş Yap' activePage={activePage === '/enter'} />
           </Link>
-          <Link className='header__items' to='/favourite' onClick={()=> setActivePage('favourite')}>
+          <Link className='header__items' to='/favourite' onClick={()=> setActivePage('/favourite')}>
             <div className='header__inner--fav'></div>
-            <HeaderLink  title='Favorilerim' activePage={activePage === 'favourite'} />
+            <HeaderLink  title='Favorilerim' activePage={activePage === '/favourite'} />
           </Link>
-          <Link className='header__items' to='/basket' onClick={()=> setActivePage('basket')}>
+          <Link className='header__items' to='/basket' onClick={()=> setActivePage('/basket')}>
             <div className='header__inner--card'></div>
-            <HeaderLink  title='Sepetim' activePage={activePage === 'basket'} />
+            <HeaderLink  title='Sepetim' activePage={activePage === '/basket'} />
           </Link>
-        </div>
+        </div>  
       </div>
       </div>
     </> 

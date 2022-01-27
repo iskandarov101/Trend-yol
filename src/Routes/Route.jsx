@@ -57,16 +57,16 @@ const HomePage = ()=> {
               <Route  path='/favourite' component={Favourite} />
               <Route  path='/basket' component={Basket} />
 
-              <Route exact path='/woman' component={Woman} />
-              <Route exact path='/man' component={Man} />
-              <Route exact path='/child' component={Child} />
-              <Route exact path='/home' component={Home} />
-              <Route exact path='/supermarket' component={Market} />
-              <Route exact path='/cosmetic' component={Cosmetic} />
-              <Route exact path='/boot' component={Boot} />
-              <Route exact path='/clock' component={Clock} />
-              <Route exact path='/electronic' component={Electronic} />
-              <Route exact path='/sport' component={Sport} />
+              <Route exact path='/' component={Woman} />
+              <Route  path='/man' component={Man} />
+              <Route  path='/child' component={Child} />
+              <Route  path='/home' component={Home} />
+              <Route  path='/supermarket' component={Market} />
+              <Route  path='/cosmetic' component={Cosmetic} />
+              <Route  path='/boot' component={Boot} />
+              <Route  path='/clock' component={Clock} />
+              <Route  path='/electronic' component={Electronic} />
+              <Route  path='/sport' component={Sport} />
             </div>
           </Switch>
         </div>

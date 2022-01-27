@@ -64,7 +64,7 @@ const BodyPage = ()=> {
           </Link> */}
         </div>
         <div className="container-right">
-          <div className='slider'>
+          <div className='slider__inner'>
             <div className='slider__wrapper'>
               <Slider {...settings}>
                 <Link className='slider__link'>
@@ -86,7 +86,7 @@ const BodyPage = ()=> {
             </div>
           </div>
 
-          <div className='slider'>
+          <div className='slider__inner'>
             <Slider {...settings}>
               <Link className='slider__link'>
                 <img className='slider__img' src={shirt5} width={340} height={333} alt="" />
@@ -106,7 +106,7 @@ const BodyPage = ()=> {
             </Slider>
           </div>
 
-          <div className='slider'>
+          <div className='slider__inner'>
             <Slider {...settings}>
               <Link className='slider__link'>
                 <img className='slider__img' src={shirt} width={340} height={333} alt="" />

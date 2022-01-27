@@ -171,6 +171,20 @@ export const WomanData = [
     id: 30,
     image: Hummel,
     title: "Pull & Bear"
-  }
-
+  },
+  {
+    id: 11,
+    image: Sana,
+    title: "Sana Özel"
+  },
+  {
+    id: 12,
+    image: Sen,
+    title: "Sen De Al!"
+  },
+  {
+    id: 13,
+    image: Kodlar,
+    title: "Sana Özel"
+  },
 ] 

@@ -9,8 +9,40 @@ const Sidebar = ({activePage, setActivePage})=> {
 
   return(
     <div className='sidebar'>
-      <Link className='sidebar-item' to='/woman' onClick={()=> setActivePage('woman')}>
+      <Link className='sidebar-item' to='/' onClick={()=> setActivePage('woman')}>
         <SidebarBtn title='Woman' activePage={ activePage === 'woman'} />
+        <ul className="nav__sub--list">
+          <li className="nav__sub--item">
+            <Link className='nav__sub--link'>clothes</Link>
+          </li>
+          <li className="nav__sub--item">
+            <Link className='nav__sub--link'>clothes</Link>
+          </li>
+          <li className="nav__sub--item">
+            <Link className='nav__sub--link'>clothes</Link>
+          </li>
+          <li className="nav__sub--item">
+            <Link className='nav__sub--link'>clothes</Link>
+          </li>
+          <li className="nav__sub--item">
+            <Link className='nav__sub--link'>clothes</Link>
+          </li>
+          <li className="nav__sub--item">
+            <Link className='nav__sub--link'>clothes</Link>
+          </li>
+          <li className="nav__sub--item">
+            <Link className='nav__sub--link'>clothes</Link>
+          </li>
+          <li className="nav__sub--item">
+            <Link className='nav__sub--link'>clothes</Link>
+          </li>
+          <li className="nav__sub--item">
+            <Link className='nav__sub--link'>clothes</Link>
+          </li>
+          <li className="nav__sub--item">
+            <Link className='nav__sub--link'>clothes</Link>
+          </li>
+        </ul>
       </Link>
       <Link className='sidebar-item' to='/man' onClick={()=> setActivePage('man')}>
         <SidebarBtn title='man'  activePage={ activePage === 'man'}/>
