@@ -10,15 +10,19 @@ const Discount = ({activePage, setActivePage})=> {
     <>
       <div className='discount'>
         <div  className='discount__top'>
-          <Link className='discount__link' to='/discount' onClick={()=> setActivePage('/discount')}>
-            <DiscountBtn className='discount__title' title='İndirim Kuponlarim' activePage={activePage === '/discount'} />
+
+          <Link className={`discount__link ${activePage === '/discount' ? 'active-page' : ''}`} onClick={()=> setActivePage('/discount')} to='/discount' >
+            <DiscountBtn title='İndirim Kuponlarim' />
           </Link>
-          <Link className='discount__link'  to='/selling' onClick={()=> setActivePage('/selling')}>
-            <DiscountBtn  title='Trendyol`da Satiş Yap' activePage={activePage === '/selling'} />
+
+          <Link className={`discount__link ${activePage === '/selling' ? 'active-page' : ''}`}  onClick={()=> setActivePage('/selling')}  to='/selling'>
+            <DiscountBtn  title='Trendyol`da Satiş Yap'/>
           </Link>
-          <Link className='discount__link'  to='/helping' onClick={()=> setActivePage('/helping')}>
-            <DiscountBtn  title='Yardim & Destek' activePage={activePage === '/helping'} />
+
+          <Link className={`discount__link ${activePage === '/helping' ? 'active-page' : ''}`}  onClick={()=> setActivePage('/helping')} to='/helping' >
+            <DiscountBtn  title='Yardim & Destek'  />
           </Link>
+          
         </div>
       </div>
     </>

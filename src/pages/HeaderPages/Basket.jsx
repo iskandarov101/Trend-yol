@@ -1,9 +1,14 @@
+// import Footer from '../../containers/Footer/Footer';
 
 
 const Basket = ()=> {
 
   return(
-    <h1>Basket page</h1>
+    <div>
+      <h1>Basket page</h1>
+      {/* <Footer   /> */}
+    
+    </div>
   )
 }
 

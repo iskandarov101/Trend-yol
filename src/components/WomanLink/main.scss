@@ -1,38 +1,38 @@
 .woman__btn{
-  display: flex;
-  flex-direction: column;
-  width: 68px;
-  height: 68px;
+  display: block;
   border: none;
   background-color: transparent;
-  margin: 14px auto 0;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding: 0;
+  cursor: pointer;
+
+  &:hover .woman__image {
+    border: 1px solid #FF671D;
+  }
+  &:hover .woman__title {
+    color: #f28232 !important;
+  }
+  
 }
 
 .woman__image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border-radius: 50%;
-  box-sizing: border-box;
   width: 68px;
   border: 1px solid #e6e6e6;
   height: 68px;
   margin: 0;
   transition: all ease 0.2s;
-  &:hover {
-    cursor: pointer;
-    border: 1px solid #FF671D;
-    border-radius: 50%;
-  }
 }
 
 .woman__title{
   font-family: 'source_sans_prosemibold', sans-serif;
-  display: block;
   text-align: center;
   margin-top: 10px;
   color: #333;
   font-size: 14px;
+  display: block;
   transition: all ease 0.2s;
   line-height: 14px;
   height: 42px;

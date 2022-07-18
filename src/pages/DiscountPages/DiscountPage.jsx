@@ -5,8 +5,7 @@ const DiscountPage = ()=> {
   return(
     <div>
       <div>
-        <h1>Merhaba,</h1>
-        <p>Trendyol`a giriş yap veya hesap oluştur, indirimleri kaçirma!</p>
+        <h1>Discount page,</h1>
       </div>
     </div>
   )

@@ -3,10 +3,11 @@
   background-color: transparent;
   border: none;
   padding: 0;
+  margin-top: 0;
 }
 
 .header__title{
-  font-family: "source_sans_prosemibold",serif !important;
+  font-family: "source_sans_prosemibold",sans-serif !important;
   -webkit-font-smoothing: antialiased;
   font-size: 13px;
   color: #333333;
@@ -15,7 +16,7 @@
   transition: all ease 0.3s;
   padding: 0;
   &:hover {
-    color: #FF671D;
+    // color: #FF671D;
     cursor:  pointer;
   }
 }

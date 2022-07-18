@@ -1,0 +1,53 @@
+.lr-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: #333333;
+}
+
+.lr-title h1 {
+  font-size: 34px;
+  margin-bottom: 5px;
+}
+
+.lr-title h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+// ===== STARTS FORM BUTTONS =====
+
+.lr-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.q-layout {
+  // background-color: #fafafa;
+  // display: block;
+  // padding: 10px;
+  margin: 0;
+  border: 0;
+  // font-family: "Source Sans Pro",sans-serif;
+  outline: none;
+  user-select: none;
+}
+
+.lr-header .header-buttons {
+  align-items: flex-end;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+
+
+
+
+

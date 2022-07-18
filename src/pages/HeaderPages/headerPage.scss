@@ -1,0 +1,353 @@
+#login-register {
+  max-width: 415px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+//========= TOP-BUTTONS ======
+
+
+.tab.button.action {
+  color: #f27a1a !important;
+  background-color: #fff !important;
+  border: 1px solid #e6e6e6;
+  border-bottom: 0;
+}
+
+.tab.button.right:not(.action)::after {
+  right: 0;
+}
+
+.tab.button:not(.action)::after {
+  content: '';
+  position: absolute;
+  border-bottom: 1px solid #e6e6e6;
+  width: 102%;
+  bottom: 0;
+}
+
+.tab.button {
+  width: 100% !important;
+  height: 48px !important;
+  color: #333333;
+  background-color: #f2f2f2;
+  border-radius: 3px 3px 0 0;
+  border: none;
+  border-bottom: none;
+  display: inline-block !important;
+  position: relative;
+  text-decoration: none;
+}
+
+.q-button.q-button-medium {
+  height: 44px;
+  font-size: 16px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.q-button {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  user-select: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 400;
+  font-family: "Source Sans Pro",sans-serif;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  border-radius: 3px;
+}
+.left {
+  float: left;
+}
+
+
+// ======== FORM ========
+
+.lr-container {
+  border: 1px solid #e6e6e6;
+  border-top: 0;
+  padding: 40px;
+  padding-top: 37px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.login {
+  padding: 0;
+  background-color: #fff;
+}
+.q-layout {
+  display: block;
+  margin: 0;
+  border: 0;
+  outline: none;
+  user-select: none;
+}
+
+.q-input-wrapper {
+  display: block;
+  text-align: left;
+}
+
+.q-input-wrapper .q-label {
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 0;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.q-input-wrapper .q-input {
+  background-color: #ebebeb;
+  font-size: 14px;
+  border: 1px solid #e6e6e6;
+  height: 40px;
+  padding: 10px;
+  color: #666;
+  -webkit-appearance: none;
+}
+
+.email-input input {
+    height: 44px !important;
+  }
+.q-input {
+  width: 100% !important;
+  border-radius: 3px !important;
+  background-color: #fafafa !important;
+}
+
+.password-wrapper .password {
+  margin-top: 20px;
+  display: flex;
+  position: relative;
+}
+
+.password-wrapper .password .q-input-wrapper {
+  width: 100%;
+}
+
+.q-input-wrapper .q-input:focus {
+  outline: none !important;
+ background-color: #f8f8f8; 
+}
+
+.q-input:focus {
+  border-color: #d1d1d1;
+}
+
+//======== forgot passpord ========
+.forgot-password {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: end;
+}
+.forgot-password .forgot-password__link {
+  color: #333333;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  &:hover {
+    color: #f27a1a;
+  }
+}
+
+.q-button.q-fluid {
+  width: 100%;
+}
+
+.q-button.q-primary {
+  background-color: #f27a1a;
+  color: #fff;
+  border: 1px solid #f27a1a;
+}
+
+.submit {
+  margin-top: 20px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  &:hover {
+    opacity: .8;
+  }
+}
+
+// ======= social icon buttons======
+
+
+.social-account-login-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.social-account-login-buttons .social-login-button:first-child {
+  margin-right: 15px;
+}
+
+.social-account-login-buttons .social-login-button {
+  background-color: #fff;
+  font-size: 14px;
+  border-radius: 6px;
+  border: solid 1px #e6e6e6;
+  padding: 8px 10px;
+  align-items: flex-start;
+  align-self: flex-start;
+  line-height: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex {
+  display: flex;
+}
+
+.social-account-login-buttons .social-login-button .social-login-icon {
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.q-icon {
+  display: inline-block;
+  line-height: 1;
+}
+
+.i-facebook:before {
+  content: "\e92f";;
+}
+.i-google:before {
+  content: "\e92f";
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.social-account-login-buttons .social-login-button small {
+  font-size: 12px;
+  color: #999999;
+}
+
+
+//======== register page styles started here =====
+// .q-button .q-secondary {
+//   background-color: #fff;
+//   color: #f27a1a !important;
+//   border: 1px solid #f27a1a;
+// }
+
+.register .gender .button-group .q-button.q-secondary {
+  border: 1px solid #f27a1a !important;
+  color: #f27a1a;
+}
+
+.register .gender .button-group .active {
+  background-color: #fff;
+  font-weight: 600;
+  border-radius: 4px !important;
+}
+
+.q-typography.dark-gray {
+  color: #666;
+}
+
+.q-typography.q-paragraph {
+  line-height: 18px;
+}
+
+.password-wrapper p {
+  font-size: 12px !important;
+  margin-top: 3px;
+}
+
+.q-typography {
+  margin: 0;
+  font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.register .gender {
+  margin-top: 20px;
+}
+
+.register .gender label {
+  color: #333333;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+
+.register .gender .button-group button {
+  height: 40px;
+  border: 1px solid #e6e6e6;
+  background-color: #fafafa;
+}
+
+.q-button.q-gray {
+  background-color: #fff;
+  color: #666;
+  border: 1px solid #999;
+}
+
+.border-right-none {
+  border-right: none !important;
+}
+
+.border-left-none {
+  border-left: none !important;
+}
+
+.register .gender .button-group .female {
+  border-radius: 4px 0 0 4px;
+}
+
+.register .gender .button-group .male {
+  border-radius: 0 4px 4px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
